@@ -2,3 +2,16 @@
 {
         height: 70vh !important;
 }
+.big-heading{
+        text-align: center;
+}
+.container{
+margin-top:50px ;
+}
+.image-profile{
+        text-align: center;
+}
+.image-profile > img{
+        width: 80%;
+        height: 70vh;
+}

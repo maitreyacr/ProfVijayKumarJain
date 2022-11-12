@@ -162,6 +162,7 @@ div.card div.flap2 {
 div.cards.showing div.card {
   cursor: pointer;
   opacity: 0.6;
+  z-index: -10;
   transform: scale(0.88);
 }
 .no-touch div.cards.showing div.card:hover {
@@ -171,6 +172,8 @@ div.cards.showing div.card {
 div.card.show {
   opacity: 1 !important;
   transform: scale(1) !important;
+  z-index: 10;
+
 }
 div.card.show div.card-title a.toggle-info {
   background: #ff6666 !important;
